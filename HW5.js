@@ -23,18 +23,14 @@ var phone = {
 
 
 //
-for( let i = 0; i < name.length; i++){
-    let a = Number(prompt("Enter product position"));
-    if (a == i + 1) {
-        console.log(phone.name[i]);
-        console.log(phone.brand[i]);
-        console.log(phone.price[i]);
-        console.log(phone.color[i]);
-        console.log(phone.category[i]);
+let a = Number(prompt("Enter product position"));
+for( let i = 0; i < phone.name.length; i++){
+        console.log(phone.name[a-1]);
+        console.log(phone.brand[a-1]);
+        console.log(phone.price[a-1]);
+        console.log(phone.color[a-1]);
+        console.log(phone.category[a-1]);
         break;
-    }else{
-        console.log('sản phẩm không tồn tại');
-    }
 }
 
 
