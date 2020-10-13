@@ -1,0 +1,7 @@
+Init (after 7)_DONE
+Read (after 9)_DONE
+Update (after 10)_DONE
+Create (after 11)_DONE
+Array of Objects (after 4)_DONE
+Object containing array_DONE
+Object and Array mix structure_DONE
